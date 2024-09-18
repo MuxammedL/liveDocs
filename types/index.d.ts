@@ -45,9 +45,9 @@ declare type UserTypeSelectorParams = {
 
 declare type ShareDocumentDialogProps = {
   roomId: string;
-  collaborators: User[];
+  collaborators?: User[];
   creatorId: string;
-  currentUserType: UserType;
+  currentUserType?: UserType;
 };
 
 declare type HeaderProps = {
